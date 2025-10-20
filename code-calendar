@@ -1,5 +1,5 @@
 import calendar
-yy = 2012 # year
-mm = 12 # month
-# display the calendar
-print( calendar .month (yy, mm))
+yy = 2025  # year
+for mm in range(1, 13):  # month
+	# display the calendar
+	print(calendar.month(yy, mm))
